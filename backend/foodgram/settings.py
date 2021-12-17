@@ -127,6 +127,8 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 AUTH_USER_MODEL = 'users.CustomUser'
 
+# Позволяте переопределять параметры локальным файлом settings,
+# в случае необходимости.
 try:
     from local_settings import *
 except ImportError:
