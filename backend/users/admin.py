@@ -76,7 +76,7 @@ class UserChangeForm(forms.ModelForm):
     def clean_password(self):
         return self.initial["password"]
 
-
+@admin.register(User)
 class UserAdmin(BaseUserAdmin):
     form = UserChangeForm
     add_form = UserCreationForm
@@ -95,6 +95,6 @@ class UserAdmin(BaseUserAdmin):
     list_display = ('id', 'username', 'email', 'first_name', 'last_name',)
 
 
-admin.site.register(User, UserAdmin)
+# admin.site.register(User, UserAdmin)
 
 admin.site.unregister(Group)
