@@ -95,6 +95,4 @@ class UserAdmin(BaseUserAdmin):
     list_display = ('id', 'username', 'email', 'first_name', 'last_name',)
 
 
-# admin.site.register(User, UserAdmin)
-
 admin.site.unregister(Group)
