@@ -133,3 +133,5 @@ dmypy.json
 
 # static
 static/
+
+settings_local.py
