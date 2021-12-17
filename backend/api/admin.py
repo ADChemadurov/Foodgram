@@ -57,12 +57,3 @@ class SubscriptionAdmin(admin.ModelAdmin):
 @admin.register(IngredientInRecipe)
 class RecipeIngredientAdmin(admin.ModelAdmin):
     list_display = ('recipe', 'ingredient', 'amount')
-
-
-# admin.site.register(Ingredient, IngredientAdmin)
-# admin.site.register(IngredientInRecipe, RecipeIngredientAdmin)
-# admin.site.register(Recipe, RecipeAdmin)
-# admin.site.register(Tag, TagAdmin)
-# admin.site.register(Purchase, PurchaseAdmin)
-# admin.site.register(Favorite, FavoriteAdmin)
-# admin.site.register(Follow, SubscriptionAdmin)
