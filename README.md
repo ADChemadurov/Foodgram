@@ -147,8 +147,3 @@ sudo docker-compose exec backend python manage.py loaddata all_data.json
 Для запуска проекта вам потребуется:
 - Docker (Docker Hub, docker-compose)
 - GitHub Actions
-
-## Об авторе
-
-Автор этого проекта студент Яндекс.Практикума 17 когорты Чемадуров Артём :)
-Посмотреть рабочий проект вы можете по следующему адресу: http://51.250.1.76/ (доступен будет до 31.12.2021 г.)
